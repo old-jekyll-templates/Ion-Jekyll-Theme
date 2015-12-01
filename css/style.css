@@ -982,6 +982,11 @@
 				right: 0;
 			}
 
+	.titlecolor{
+		color: #E39CE3;
+		font-weight: bold;
+	}
+
 /* Banner */
 
 	#banner {
