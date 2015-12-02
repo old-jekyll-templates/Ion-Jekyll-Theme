@@ -273,7 +273,7 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default.navbar-shrink .nav li a:hover,
     .navbar-default.navbar-shrink .nav li a:focus {
         outline: 0;
-        color: #fff;
+        color: #{{ site.color.secondary }};
     }
 
     .navbar-default.navbar-shrink .navbar-nav>.active>a {
@@ -324,7 +324,7 @@ header .intro-text .intro-heading {
 @media(min-width:768px) {
     header .intro-text {
         padding-top: 150px;
-        padding-bottom: 200px;
+        padding-bottom: 150px;
     }
 
     header .intro-text .intro-lead-in {
