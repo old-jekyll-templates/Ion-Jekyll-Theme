@@ -247,6 +247,7 @@ fieldset[disabled] .btn-xl.active {
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
+        opacity: 0.0;
     }
 
     .navbar-default .navbar-nav>.active>a {
@@ -262,6 +263,7 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
         color: #000;
+        opacity: 1.0;
     } 
 
     .navbar-default.navbar-shrink .nav li a{

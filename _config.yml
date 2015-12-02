@@ -15,7 +15,7 @@ color:
 
 # Team names, titles and social links
 authors:
-- name: Kay Garland
+- name: May Yang
   pic: 1
   position: Lead Designer
   social:
@@ -26,7 +26,7 @@ authors:
     - title: stack-overflow
       url: #
 
-- name: Larry Parker
+- name: Erica Li
   pic: 2
   position: Lead Marketer
   social:
@@ -37,7 +37,7 @@ authors:
     - title: linkedin
       url: #
 
-- name: Diana Petersen
+- name: Bryan Yang
   pic: 3
   position: Lead Developer
   social:
@@ -48,7 +48,7 @@ authors:
     - title: google-plus
       url: #
 
-- name: Diana Petersen
+- name: Chu-Yu Hsu
   pic: 3
   position: Lead Developer
   social:
@@ -59,7 +59,7 @@ authors:
     - title: google-plus
       url: #
 
-- name: Diana Petersen
+- name: Mark Yang
   pic: 3
   position: Lead Developer
   social:
@@ -70,7 +70,7 @@ authors:
     - title: google-plus
       url: #
 
-- name: Kay Garland
+- name: Rayn Chao
   pic: 1
   position: Lead Designer
   social:
@@ -81,7 +81,7 @@ authors:
     - title: stack-overflow
       url: #
 
-- name: Larry Parker
+- name: Larry Lo
   pic: 2
   position: Lead Marketer
   social:
