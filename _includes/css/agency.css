@@ -247,7 +247,6 @@ fieldset[disabled] .btn-xl.active {
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
-        opacity: 0.0;
     }
 
     .navbar-default .navbar-nav>.active>a {
@@ -290,7 +289,6 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(img/banner.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -321,11 +319,23 @@ header .intro-text .intro-heading {
     line-height: 50px;
 }
 
+header .intro-text .intro-lead-in.page {
+    font-size: 16px;
+}  
+header .intro-text .intro-heading.page {
+    font-size: 32px;
+}
+
 @media(min-width:768px) {
     header .intro-text {
         padding-top: 150px;
         padding-bottom: 150px;
     }
+
+    header .page.intro-text {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }    
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
@@ -343,6 +353,15 @@ header .intro-text .intro-heading {
         font-weight: 700;
         line-height: 75px;
     }
+
+    header .intro-text .intro-lead-in.page {
+        font-size: 28px;
+    }  
+    header .intro-text .intro-heading.page {
+        margin-bottom: 0px;  
+        margin-top: 35px;      
+        font-size: 65px;
+    }    
 }
 
 section {

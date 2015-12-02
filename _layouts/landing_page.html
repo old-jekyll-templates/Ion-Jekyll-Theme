@@ -1,0 +1,34 @@
+---
+layout: default
+hide_brand: true
+---
+
+<!-- Header -->
+{% include navigator.html %}
+
+<style>
+@media(min-width:768px) {
+    .navbar-default .navbar-brand{
+        opacity: 0.0;
+    }
+}
+</style>
+
+<!-- Header -->
+<header style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
+    <div class="container">
+        <div class="intro-text">
+            <div class="intro-heading"><span class="first-word">Elastic</span>Mining</div>
+            <div class="intro-lead-in">{{site.slogan}}</div>
+            <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
+        </div>
+    </div>
+</header>
+<!--
+{% for page in site.pages %}
+  {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
+{% endfor %}
+ -->
+
+<!-- Content -->
+{{ content }}
