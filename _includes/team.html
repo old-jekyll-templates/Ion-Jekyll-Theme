@@ -9,11 +9,11 @@
             </div>
             {% for author in site.data.authors %}
                 {% assign member = author[1] %}
-                {% assign modulo = forloop.index | modulo: 3 %}
+                {% assign modulo = forloop.index | modulo: 4 %}
                 {% if modulo == 1 %} 
                    <div class="row">
                 {% endif %}
-                        <div class="col-sm-4">
+                        <div class="col-sm-3">
                             <div class="team-member">
                                 <img src="img/team/{{ member.pic }}.jpg" class="img-responsive img-round" alt="">
                                 <h4>{{ member.name }}</h4>
@@ -31,28 +31,18 @@
                     </div>
                 {% endif %}
             {% endfor %}
-            {% assign length = site.authors | size | modulo: 3%}
+            {% assign length = site.authors | size | modulo: 4%}
             {{if length != 0}}
                     </div>
             {{endif}}
-            
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
-                </div>
-            </div>
-        </div>
-    </section>
 
-<!--     <section id="team" class="bg-darkest-gray">
-        <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Team Consultants</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-subheading text-muted">Our Consultants</h3>
                 </div>
             </div>
-           <div class="row">
+
+           <div class="row box">
                 <div class="col-sm-4">
                     <div class="team-member">
                         <img src="img/team/1.jpg" class="img-responsive img-round" alt="">
@@ -68,13 +58,21 @@
                         <p class="text-muted">Team Consultant</p>
                         <p class="text-muted">Description</p>
                     </div>
-                </div>                
-            </div>
-            
+                </div>     
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/1.jpg" class="img-responsive img-round" alt="">
+                        <h4>A Yuan</h4>
+                        <p class="text-muted">Team Consultant</p>
+                        <p class="text-muted">Description</p>
+                    </div>
+                </div>              
+            </div>            
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
                 </div>
             </div>
+         
         </div>
-    </section>     -->
+    </section>   
