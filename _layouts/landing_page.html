@@ -3,9 +3,6 @@ layout: default
 hide_brand: true
 ---
 
-<!-- Header -->
-{% include navigator.html %}
-
 <style>
 @media(min-width:768px) {
     .navbar-default .navbar-brand{
@@ -13,6 +10,10 @@ hide_brand: true
     }
 }
 </style>
+
+<!-- Header -->
+{% include navigator.html %}
+
 
 <!-- Header -->
 <header style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
@@ -24,11 +25,6 @@ hide_brand: true
         </div>
     </div>
 </header>
-<!--
-{% for page in site.pages %}
-  {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
-{% endfor %}
- -->
 
 <!-- Content -->
 {{ content }}
