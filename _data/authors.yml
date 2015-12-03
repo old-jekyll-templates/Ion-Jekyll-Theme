@@ -8,9 +8,111 @@ mayyang:
   position: Lead Designer
   gravatar: 
   social:
+    - title: linkedin
+      url: #  
+    - title: github
+      url: #
     - title: twitter
       url: #
-    - title: facebook
+
+ericali:
+  name: Hanzou Hattori
+  display_name: Hanzou
+  gravatar: c66919cb194f96c696c1da0c47354a6a
+  email: hanzou@company.com
+  pic: 1
+  position: Lead Designer
+  gravatar: 
+  social:
+    - title: linkedin
+      url: #  
+    - title: github
       url: #
-    - title: stack-overflow
+    - title: twitter
       url: #
+
+bryanyang:
+  name: Hanzou Hattori
+  display_name: Hanzou
+  gravatar: c66919cb194f96c696c1da0c47354a6a
+  email: hanzou@company.com
+  pic: 1
+  position: Lead Designer
+  gravatar: 
+  social:
+    - title: linkedin
+      url: #  
+    - title: github
+      url: #
+    - title: twitter
+      url: #
+
+markyang:
+  name: Hanzou Hattori
+  display_name: Hanzou
+  gravatar: c66919cb194f96c696c1da0c47354a6a
+  email: hanzou@company.com
+  pic: 1
+  position: Lead Designer
+  gravatar: 
+  social:
+    - title: linkedin
+      url: #  
+    - title: github
+      url: #
+    - title: twitter
+      url: #
+
+
+chuyuhsu:
+  name: Hanzou Hattori
+  display_name: Hanzou
+  gravatar: c66919cb194f96c696c1da0c47354a6a
+  email: hanzou@company.com
+  pic: 1
+  position: Lead Designer
+  gravatar: 
+  social:
+    - title: linkedin
+      url: #  
+    - title: github
+      url: #
+    - title: twitter
+      url: #
+
+
+ryanchao:
+  name: Hanzou Hattori
+  display_name: Hanzou
+  gravatar: c66919cb194f96c696c1da0c47354a6a
+  email: hanzou@company.com
+  pic: 1
+  position: Lead Designer
+  gravatar: 
+  social:
+    - title: linkedin
+      url: #  
+    - title: github
+      url: #
+    - title: twitter
+      url: #
+
+
+larrylo:
+  name: Hanzou Hattori
+  display_name: Hanzou
+  gravatar: c66919cb194f96c696c1da0c47354a6a
+  email: hanzou@company.com
+  pic: 1
+  position: Lead Designer
+  gravatar: 
+  social:
+    - title: linkedin
+      url: #  
+    - title: github
+      url: #
+    - title: twitter
+      url: #
+
+
+

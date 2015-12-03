@@ -7,7 +7,8 @@
                     <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
             </div>
-            {% for member in site.data.authors %}
+            {% for author in site.data.authors %}
+                {% assign member = author[1] %}
                 {% assign modulo = forloop.index | modulo: 3 %}
                 {% if modulo == 1 %} 
                    <div class="row">
