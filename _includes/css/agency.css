@@ -57,6 +57,13 @@ h6 {
     font-weight: 700;
 }
 
+
+article p{
+    font-family: Lora,'Times New Roman',serif;
+    font-size: 20px;
+    color: #{{ site.color.secondary-dark }};
+}
+
 .img-centered {
     margin: 0 auto;
 }
@@ -326,7 +333,20 @@ header .intro-text .intro-heading.page {
     font-size: 32px;
 }
 
+header .meta {
+  font-family: 'Lora', 'Times New Roman', serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+header.intro-header {
+    margin-bottom: 50px;
+    text-align: left;
+}
+
 @media(min-width:768px) {
+
     header .intro-text {
         padding-top: 150px;
         padding-bottom: 150px;

@@ -1,13 +1,29 @@
 ---
 layout: page
 ---
+{% assign author = site.data.authors[page.author] %}
 <!-- Post Content -->
 <article>
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
-				{{ content }}
+                {{ content }}
+
+                <hr>
+                <div class="meta">
+                    <div class="container">
+                        <div class="col-lg-4 col-md-2">
+                            <img src="{{site.baseurl}}/img/team/{{ author.pic }}.jpg" class="img-responsive img-circle" alt="">
+                        </div>
+                        <div class="col-lg-8 col-md-10">
+                            About the Author
+                            <span class="author">{{ author.name }}</span>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
 
                 <hr>
 
@@ -28,5 +44,3 @@ layout: page
         </div>
     </div>
 </article>
-
-<hr>
