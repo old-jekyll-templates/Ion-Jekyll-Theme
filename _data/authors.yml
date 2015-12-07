@@ -1,7 +1,7 @@
 # Team names, titles and social links
 mayyang:
-  name: Hanzou Hattori
-  display_name: Hanzou
+  name: May Yang
+  display_name: May
   gravatar: c66919cb194f96c696c1da0c47354a6a
   email: hanzou@company.com
   pic: 1
@@ -16,8 +16,8 @@ mayyang:
       url: #
 
 ericali:
-  name: Hanzou Hattori
-  display_name: Hanzou
+  name: Erica Li
+  display_name: Erica
   gravatar: c66919cb194f96c696c1da0c47354a6a
   email: hanzou@company.com
   pic: 1
@@ -32,8 +32,8 @@ ericali:
       url: #
 
 bryanyang:
-  name: Hanzou Hattori
-  display_name: Hanzou
+  name: Brayn Yang
+  display_name: Bryan
   gravatar: c66919cb194f96c696c1da0c47354a6a
   email: hanzou@company.com
   pic: 1
@@ -48,7 +48,7 @@ bryanyang:
       url: #
 
 markyang:
-  name: Hanzou Hattori
+  name: Mark Yang
   display_name: Hanzou
   gravatar: c66919cb194f96c696c1da0c47354a6a
   email: hanzou@company.com
@@ -65,7 +65,7 @@ markyang:
 
 
 chuyuhsu:
-  name: Hanzou Hattori
+  name: Chu-Yu Hsu
   display_name: Hanzou
   gravatar: c66919cb194f96c696c1da0c47354a6a
   email: hanzou@company.com
@@ -82,7 +82,7 @@ chuyuhsu:
 
 
 ryanchao:
-  name: Hanzou Hattori
+  name: Ryan Chao
   display_name: Hanzou
   gravatar: c66919cb194f96c696c1da0c47354a6a
   email: hanzou@company.com
@@ -99,7 +99,7 @@ ryanchao:
 
 
 larrylo:
-  name: Hanzou Hattori
+  name: Larry Lo
   display_name: Hanzou
   gravatar: c66919cb194f96c696c1da0c47354a6a
   email: hanzou@company.com
