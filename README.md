@@ -1,10 +1,10 @@
 # ElasticMining Website
-------
+----
 
 This is the repository of [ElasticMining](http://www.elasticmining.com) website.
 
 ## Ways to Contribute
-------
+----
 If you want to make some conbribution, you can
 
 1. fix the typos, missed translations, or suggest in the issues
@@ -13,7 +13,7 @@ If you want to make some conbribution, you can
 
 
 ## Standard Workflow
-------
+----
 1. fork this repository
 2. clone the forked repository to your local machine
 3. `cd /path/to/repo` and `git branch develop` to create a new branch for further modification
@@ -28,7 +28,7 @@ Every time before you make any change, repeat step 6, 7 and 8 to sync the master
 
 
 ## Add New Posts
--------
+-----
 
 1. Copy the template `0000-00-00-template.md` from `_drafts` to `_posts` and rename the file name as your will
 2. Edit the post description in the header
@@ -77,6 +77,7 @@ The hightlighted header option needs you to customize
 
 ## How to Test This Jekyll Site Locally.
 -----
+First of all, you have to setup the jekyll environment
 
 1. Install rvm
 2. Install ruby 2.1
