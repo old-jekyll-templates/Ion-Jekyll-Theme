@@ -49,7 +49,7 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   input: GFM
 
-permalink: pretty
+permalink: /post/:year-:month-:day/:title.html 
 highlighter: pygments
 paginate: 5
 
