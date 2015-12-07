@@ -1,5 +1,5 @@
 url: http://www.elasticmining.com
-baseurl:  http://www.elasticmining.com
+baseurl: 
 header-img: img/banner2.jpg
 
 # Octopress
@@ -40,14 +40,13 @@ address:
   - line: 3481 Melrose Place
   - line: Beverly Hills, CA 90210
 
+
 # Build settings
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  input: GFM
+markdown: redcarpet
+markdown_ext:  markdown,mkdown,mkdn,mkd,md
+
+redcarpet:
+  extensions: ["tables", "autolink", "strikethrough", "space_after_headers", "with_toc_data", "fenced_code_blocks"]
 
 permalink: /post/:year-:month-:day/:title.html 
 highlighter: pygments

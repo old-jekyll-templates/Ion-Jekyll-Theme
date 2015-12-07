@@ -64,6 +64,12 @@ article p{
     color: #{{ site.color.secondary-dark }};
 }
 
+img {
+    max-width:100%;
+    max-height:100%; 
+}
+
+
 .img-centered {
     margin: 0 auto;
 }

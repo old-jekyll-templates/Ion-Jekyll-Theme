@@ -30,11 +30,21 @@ Content Cell  | Content Cell
 
 Code blocks can be taken a step further by adding syntax highlighting. In your fenced block, add an optional language identifier and we'll run it through syntax highlighting. For example, to syntax highlight Ruby code:
 
-```ruby
+~~~ruby
 require 'redcarpet'
 markdown = Redcarpet.new("Hello World!")
 puts markdown.to_html
-```
+~~~
+
+~~~python
+import re
+
+text = "ElasticMining"
+pattern = re.compile(ru"\w+")
+pattern.match(text)
+~~~
+
+
 
 ## Fenced code blocks
 
@@ -59,5 +69,8 @@ GFM adds syntax to create strikethrough text, which is missing from standard Mar
 GFM will autolink standard URLs, so if you want to link to a URL (instead of setting link text), you can simply enter the URL and it will be turned into a link to that URL.
 
 [http://example.com](http://example.com)
+
+
+
 
 

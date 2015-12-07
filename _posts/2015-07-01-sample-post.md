@@ -35,8 +35,7 @@ Below is just about everything you'll need to style in the theme. Check the sour
 
 Lorem ipsum dolor sit amet, test link adipiscing elit. **This is strong**. Nullam dignissim convallis est. Quisque aliquam.
 
-![Smithsonian Image]({{ site.url }}/images/3953273590_704e3899d5_m.jpg)
-{: .image-pull-right}
+![Smithsonian Image]({{ site.url }}/img/banner3.jpg)
 
 *This is emphasized*. Donec faucibus. Nunc iaculis suscipit dui. 53 = 125. Water is H2O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. The New York Times (That’s a citation). Underline.Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.
 
@@ -122,16 +121,49 @@ Make any link standout more when applying the `.btn` class.
 <div markdown="0"><a href="#" class="btn btn-info">Info Button</a></div>
 
 
+
 # Notices
 
 **Watch out!** You can also add notices by appending `{: .notice}` to a paragraph.
 {: .notice}
+
 
 # Footnotes
 
 Clicking this number[^fn-sample_footnote] will lead you to a footnote.
 
 [^fn-sample_footnote]: Handy! Now click the return link to go back.
+
+
+
+# Equations
+
+
+
+``` tex
+$$a^2 + b^2 = c^2$$
+```
+
+$$a^2 + b^2 = c^2$$
+
+
+
+``` tex
+$$
+P(E) =  \dfrac{\text{ 1 choice for C1 } \times ... \times \text{ 1 choice for C(k - 1) } \times \text{ 1 choice for C(k) }\\\color{red}{\times N} - k \text{ choices for C(N - k) }\times N - k - 1 \text{ choices for C(N - k - 1)} \times ...}{N!}
+$$
+```
+
+$$
+P(E) =  \dfrac{\text{ 1 choice for C1 } \times ... \times \text{ 1 choice for C(k - 1) } \times \text{ 1 choice for C(k) }\\\color{red}{\times N} - k \text{ choices for C(N - k) }\times N - k - 1 \text{ choices for C(N - k - 1)} \times ...}{N!}
+$$
+
+``` tex
+\\[P_i\\]
+```
+
+\\[P_i\\]
+
 
 
 
