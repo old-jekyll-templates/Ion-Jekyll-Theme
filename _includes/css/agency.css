@@ -10,11 +10,6 @@ body {
     color: #{{ site.color.secondary-dark }};
 }
 
-.MathJax_Display {
-    max-width: 100%;
-    overflow-y: scroll;
-}
-
 .text-muted {
     color: #777;
 }
