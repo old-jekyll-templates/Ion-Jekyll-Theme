@@ -77,6 +77,7 @@ The hightlighted header option needs you to customize
 ### Author IDs
 Please use these IDs for the author info in post header
 
+```
   May Yang: mayyang
   Erica Li: ericali
   Brayn Yang: bryanyang
@@ -84,7 +85,7 @@ Please use these IDs for the author info in post header
   Chu-Yu Hsu: chuyuhsu
   Ryan Chao: ryanchao
   Larry Lo: larrylo
-
+```
 
 
 ## How to Test This Jekyll Site Locally.
