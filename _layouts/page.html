@@ -4,13 +4,13 @@ layout: default
 {% include navigator.html %}
 <!-- Header -->
 
-<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
+<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.image.feature %}{{ page.image.feature }}{% else %}{{ site.header-img }}{% endif %}')">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <div class="intro-text page">
                     <div class="intro-heading page">{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</div>
-                    <div class="intro-lead-in page">{{ page.description }}</div> 
+                    <div class="intro-lead-in page">{{ page.abstract }}</div> 
                     {% assign author = site.data.authors[page.author] %}
                     {% if page.date %}<span class="meta">Posted by {% if author %}{{ author.name }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}</div>{% endif %}    
                             

@@ -7,7 +7,7 @@ modified: 2013-05-31
 tags: [intro, beginner, jekyll, tutorial]
 comments: true
 image:
-  feature: sample-image-5.jpg
+  feature: img/banner3.jpg
   credit: WeGraphics
   creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 use_toc: true
