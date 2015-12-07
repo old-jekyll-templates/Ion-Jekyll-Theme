@@ -81,7 +81,7 @@ Please use these IDs for the author info in post header
   May Yang: mayyang
   Erica Li: ericali
   Brayn Yang: bryanyang
-  Mark Yang:markyang
+  Mark Yang: markyang
   Chu-Yu Hsu: chuyuhsu
   Ryan Chao: ryanchao
   Larry Lo: larrylo
