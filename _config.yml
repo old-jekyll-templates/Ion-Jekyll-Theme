@@ -1,14 +1,58 @@
+url: http://www.elasticmining.com
+baseurl: 
+header-img: img/banner2.jpg
+
+# Octopress
+# Default extension for new posts and pages
+post_ext: md
+page_ext: html
+
 # Site settings
-title: Ion
+title: ElasticMining
+slogan: Better. Faster. Stronger.
 email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "/Ion-Jekyll-Theme" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+description: "Experts for data mining, data analysis and machine learning. Help you stay on top of the game with advanced technology."
+disqus-shortname: elasticmining
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 629DD1
+  secondary: 629DD1  
+  secondary-dark: 333
+
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/jekyllrb
+  - title: facebook
+    url:
+  - title: stack-overflow
+    url: http://stackoverflow.com/questions/tagged/jekyll
+  - title: bitbucket 
+    url: http://bitbucket.org/jekyll
+  - title: github
+    url: http://github.com/jekyll
+
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 3481 Melrose Place
+  - line: Beverly Hills, CA 90210
+
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
+markdown_ext:  markdown,mkdown,mkdn,mkd,md
+
+redcarpet:
+  extensions: ["tables", "autolink", "strikethrough", "space_after_headers", "with_toc_data", "fenced_code_blocks"]
+
+permalink: /post/:year-:month-:day/:title.html 
+highlighter: pygments
+paginate: 5
+
+gems: [jekyll-paginate, pygments.rb]
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]

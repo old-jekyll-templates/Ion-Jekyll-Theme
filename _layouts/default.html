@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html>
-    
-    {% include /head.html %}
 
-	<body id="top">
+  {% include head.html %}
 
-        {% include /header.html %}
+    <body id="page-top" class="index">
 
-        {{ content }}
+    <!-- Content -->
+    {{ content }}
 
-        {% include /footer.html %}
+    <!-- Meta -->
+    {% include footer.html %}
+    {% include js.html %}
 
     </body>
-
 </html>

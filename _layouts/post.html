@@ -1,24 +1,48 @@
 ---
-layout: default
+layout: page
 ---
-<div class="wrapper style1">
-    <article class="container">
-        <header class="major">
-            <h2 class="post-title">{{ page.title }}</h2>
-                <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-        </header>
+{% assign author = site.data.authors[page.author] %}
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
-        <section class="post-content">
-            {{ content }}
-        </section>
-        
-        <footer>
-            {% if page.previous %}
-            <a href="{{ page.previous.url }}" class="float-left">&larr; Previous post</a> {% endif %}
-            {% if page.next %}
-            <a href="{{ page.next.url }}" class="float-right">Next post &rarr;</a> {% endif %}
-        </footer>
+                {{ content }}
 
-    </article>
+                <hr>
+                <div class="meta">
+                    <div class="container">
+                        <div class="col-lg-2 col-md-1">
+                            <img src="{{site.baseurl}}/img/team/{{ author.pic }}.jpg" class="img-responsive img-circle" alt="">
+                        </div>
+                        <div class="col-lg-10 col-md-11">
+                            About the Author
+                            <span class="author ">{{ author.name }}</span>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
 
-</div>
+                <hr>
+                {% if site.disqus-shortname and page.comments == true %}
+                  {% include disqus.html %}
+                {% endif %}
+                <ul class="pager">
+                    {% if page.previous.url %}
+                    <li class="previous">
+                        <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
+                    </li>
+                    {% endif %}
+                    {% if page.next.url %}
+                    <li class="next">
+                        <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
+                    </li>
+                    {% endif %}
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</article>
