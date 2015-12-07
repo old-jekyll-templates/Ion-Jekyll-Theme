@@ -72,7 +72,19 @@ The hightlighted header option needs you to customize
 5. **tags**: the tags this post should have
 6. **image**: the featured image shown in the head. You can leave it blank
 7. **date**: date
-8. **author**: the author id you are assigned
+8. **author**: the author id you are assigned, which is listed as follows
+
+### Author IDs
+Please use these IDs for the author info in post header
+
+  May Yang: mayyang
+  Erica Li: ericali
+  Brayn Yang: bryanyang
+  Mark Yang:markyang
+  Chu-Yu Hsu: chuyuhsu
+  Ryan Chao: ryanchao
+  Larry Lo: larrylo
+
 
 
 ## How to Test This Jekyll Site Locally.
